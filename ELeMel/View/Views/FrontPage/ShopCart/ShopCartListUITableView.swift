@@ -51,7 +51,7 @@ class ShopCartListUITableView: UITableView {
         let headerView = ShopCartListHeaderView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 35))
         headerView.shopList = self
         print("headerView.shopList = self: ")
-        debugPrint(headerView.shopList ?? nil!)
+        debugPrint(headerView.shopList ?? "shopList is nil")
         self.tableHeaderView = headerView
         
         // cell的行高
